@@ -138,7 +138,7 @@ var MinecraftMap;
             if (!('MapRange' in this))
                 this.MapRange = MinecraftMap.cMapRangeDefault;
             if (!('Title' in this))
-                this.Title = 'Map of the Overworld';
+                this.Title = 'emfo\'s world';
             if (!('Blurb' in this))
                 this.Blurb = 'Use up/down or mousewheel to zoom, drag to scroll';
             if (!('CustomIconsUri' in this))
@@ -2017,11 +2017,11 @@ var MinecraftMap;
             MinecraftMap.gCustomIcons = returned.image;
             return returned.waitObj;
         }
-        // Loads an image asynchronously. If a URI is provided then load is attempted 
-        // from the URI, otherwise it attempts to use the image from an image tag in 
+        // Loads an image asynchronously. If a URI is provided then load is attempted
+        // from the URI, otherwise it attempts to use the image from an image tag in
         // the HTML with the id specified by tryImgId.
         //
-        // Returns an iLoadImageAsyncResult with a null waitObj if there was nothing 
+        // Returns an iLoadImageAsyncResult with a null waitObj if there was nothing
         // to load, or a jquery Deferred object which will be resolved when the image
         // is loaded.
         function loadImage_Async(uri, tryImgId, purposeDesc) {
