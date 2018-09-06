@@ -1,0 +1,21 @@
+title           = "Origo"
+blurb           = ""
+showorigin      = true
+showcoordinates = true
+oceansrc        = data/world.png
+oceantheme      = bluecoastlinehard
+x               = -960
+z               = 0
+range           = 1920
+
+
+// Map locations:
+// Type         , x     , z     , Description           , Owner , href                          , IconIndex
+
+Label           , -1776 ,    64 , "Stronghold"          ,       ,                               , 8
+Label           ,  -232 ,   760 , "Monument"            ,       ,                               , 46
+Label           ,  -696 ,   120 , "Monument"            ,       ,                               , 46
+Label           ,  -824 ,  1144 , "Monument"            ,       ,                               , 46
+Label           ,  -840 , -1302 , "Monument"            ,       ,                               , 46
+Label           , -1352 ,   392 , "Monument"            ,       ,                               , 46
+Label           , -1736 ,  1176 , "Monument"            ,       ,                               , 46

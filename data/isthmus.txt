@@ -1,0 +1,17 @@
+title           = "Isthmus"
+blurb           = ""
+showorigin      = false
+showcoordinates = true
+oceansrc        = data/world.png
+oceantheme      = bluecoastlinehard
+x               = -2424
+z               = -7384
+range           = 3840
+
+
+// Map locations:
+// Type         , x     , z     , Description           , Owner , href                          , IconIndex
+
+Label           , -2190 , -4830 , "Isthmus Light"       ,       ,                               , 21
+Label           , -1436 , -4914 , "Isthmus Stronghold"  ,       ,                               , 8
+Label           , -2724 , -4440 , "Isthmus Bridge"      ,       , _self_?src=data/corona.txt    , 11

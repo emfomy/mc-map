@@ -1,0 +1,20 @@
+title           = "Himeji"
+blurb           = ""
+showorigin      = false
+showcoordinates = true
+oceansrc        = data/world.png
+oceantheme      = bluecoastlinehard
+x               = 2544
+z               = -3312
+range           = 3840
+
+
+// Map locations:
+// Type         , x     , z     , Description           , Owner , href                          , IconIndex
+
+Label           ,  2544 , -3312 , "Hemeji Castle"       ,       ,                               , 9
+Label           ,   736 , -1502 , "Stronghold"          ,       ,                               , 8
+Label           ,  3264 , -3472 , "Stronghold"          ,       ,                               , 8
+Label           ,  3960 , -3320 , "Mansion"             ,       ,                               , 20
+Label           ,  4104 , -2072 , "Mansion"             ,       ,                               , 20
+Label           ,  -822 , -3072 , "Origo Bridge"        ,       , _self_?src=data/corona.txt    , 11
