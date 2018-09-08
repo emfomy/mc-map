@@ -2,6 +2,7 @@ title           = "Isthmus"
 blurb           = ""
 showorigin      = false
 showcoordinates = true
+showlabelsbelow = 0
 oceansrc        = data/world.png
 oceantheme      = bluecoastlinehard
 x               = -2424

@@ -1,7 +1,8 @@
-title           = "Spike"
+title           = "Cygnus"
 blurb           = ""
 showorigin      = false
 showcoordinates = true
+showlabelsbelow = 0
 oceansrc        = data/world.png
 oceantheme      = bluecoastlinehard
 x               = 4800
@@ -12,8 +13,8 @@ range           = 3840
 // Map locations:
 // Type         , x     , z     , Description           , Owner , href                          , IconIndex
 
-Label           ,  4800 ,-12000 , "Spike Castle"        ,       ,                               , 47
-Label           ,  6408 ,-13296 , "Spike Port"          ,       , _self_?src=data/world.txt     , 38
+Label           ,  4800 ,-12000 , "Cygnus Castle"       ,       ,                               , 47
+Label           ,  6408 ,-13296 , "Cygnus Port"         ,       , _self_?src=data/world.txt     , 38
 Label           ,  2736 ,-13824 , "Stronghold"          ,       ,                               , 8
 Label           ,  4256 ,-10784 , "Stronghold"          ,       ,                               , 8
 Label           ,  6480 ,-11984 , "Stronghold"          ,       ,                               , 8

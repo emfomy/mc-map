@@ -15,5 +15,5 @@ range           = 15360
 Label           ,  -696 ,   120 , "Origo Sea"           ,       , _self_?src=data/origo.txt     , 46
 Label           , -3024 , -2400 , "Corona"              ,       , _self_?src=data/corona.txt    , 5
 Label           , -2424 , -7384 , "Isthmus"             ,       , _self_?src=data/isthmus.txt   , 8
-Label           ,  2544 , -3312 , "Hemeji"              ,       , _self_?src=data/himeji.txt    , 9
-Label           ,  4800 ,-12000 , "Spike"               ,       , _self_?src=data/spike.txt     , 47
+Label           ,  2544 , -3312 , "Egretta"             ,       , _self_?src=data/egretta.txt   , 9
+Label           ,  4800 ,-12000 , "Cygnus"              ,       , _self_?src=data/cygnus.txt    , 47
