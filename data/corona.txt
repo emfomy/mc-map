@@ -13,12 +13,24 @@ range           = 1920
 // Map locations:
 // Type         , x     , z     , Description           , Owner , href                          , IconIndex
 
-Label           , -3024 , -2094 , "Corona Castle"       ,       ,                               , 5
+Label           , -3024 , -2094 , "Corona Castle"       ,       ,                               , 9
 Label           , -3024 , -2646 , "Corona Gate"         ,       ,                               , 20
-Label           , -2880 , -3240 , "Corona Town"         ,       ,                               , 1
-Label           , -3024 , -3936 , "Corona Forest"       ,       ,                               , 23
+Label           , -2880 , -3240 , "Corona Town"         ,       ,                               , 10
+Label           , -3024 , -3936 , "Corona Forest"       ,       ,                               , 28
 Label           , -2328 , -2904 , "Corona Mountain"     ,       ,                               , 31
 Label           , -1680 , -2556 , "Corona Cape"         ,       ,                               , 30
 Label           , -3208 , -3240 , "Corona Port"         ,       , _self_?                       , 38
 Label           , -1722 , -3072 , "Origo Bridge"        ,       , _self_?src=data/egretta.txt   , 11
 Label           , -2724 , -4440 , "Isthmus Bridge"      ,       , _self_?src=data/isthmus.txt   , 11
+
+DesertTemple    , -2200 , -2440
+DesertTemple    , -2552 , -2744
+DesertTemple    , -2904 , -1944
+DesertTemple    , -3000 , -2952
+DesertTemple    , -3464 , -2376
+DesertVillage   , -2716 , -1820
+DesertVillage   , -2716 , -2220
+DesertVillage   , -3356 , -1836
+DesertVillage   , -3372 , -2380
+SavannahVillage , -2956 , -3420
+SavannahVillage , -3996 , -2508

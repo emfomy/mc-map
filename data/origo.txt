@@ -15,9 +15,11 @@ range           = 1920
 
 Label           , -1776 ,    64 , "Stronghold"          ,       ,                               , 8
 Label           ,     0 ,     0 , "Origo Port"          ,       , _self_?                       , 38
-Label           ,  -232 ,   760 , "Monument"            ,       ,                               , 46
-Label           ,  -696 ,   120 , "Monument"            ,       ,                               , 46
-Label           ,  -824 ,  1144 , "Monument"            ,       ,                               , 46
-Label           ,  -840 , -1302 , "Monument"            ,       ,                               , 46
-Label           , -1352 ,   392 , "Monument"            ,       ,                               , 46
-Label           , -1736 ,  1176 , "Monument"            ,       ,                               , 46
+
+SeaMonster      ,  -232 ,   760 , "Ocean Mounment"
+SeaMonster      ,  -696 ,   120 , "Ocean Mounment"
+SeaMonster      ,  -824 ,  1144 , "Ocean Mounment"
+SeaMonster      ,  -840 , -1302 , "Ocean Mounment"
+SeaMonster      , -1352 ,   392 , "Ocean Mounment"
+SeaMonster      , -1736 ,  1176 , "Ocean Mounment"
+SeaMonster      , -2328 , -1336 , "Ocean Mounment"

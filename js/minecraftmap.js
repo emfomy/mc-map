@@ -17,8 +17,9 @@ var MinecraftMap;
     "use strict";
     var LocationType = {
         Village: { iconIndex: 0, name: "Plains Village", href: "http://minecraft.gamepedia.com/Village#Plains" },
-        DesertVillage: { iconIndex: 1, name: "Desert village", href: "http://minecraft.gamepedia.com/Village#Desert" },
         SavannahVillage: { iconIndex: 0, name: "Savannah village", href: "http://minecraft.gamepedia.com/Village#Savannah" },
+        TaigaVillage: { iconIndex: 0, name: "Taiga village", href: "http://minecraft.gamepedia.com/Village#Taiga" },
+        DesertVillage: { iconIndex: 1, name: "Desert village", href: "http://minecraft.gamepedia.com/Village#Desert" },
         WitchHut: { iconIndex: 3, name: "Witch's hut", href: "http://minecraft.gamepedia.com/Generated_structures#Witch_Huts" },
         JungleTemple: { iconIndex: 4, name: "Jungle temple", href: "http://minecraft.gamepedia.com/Jungle_temple" },
         DesertTemple: { iconIndex: 5, name: "Desert temple", href: "http://minecraft.gamepedia.com/Desert_temple" },
@@ -30,7 +31,7 @@ var MinecraftMap;
         Horse: { iconIndex: 34, name: "", href: "http://minecraft.gamepedia.com/Horse" },
         Wolf: { iconIndex: 35, name: "", href: "http://minecraft.gamepedia.com/Wolf" },
         Dragon: { iconIndex: 36, name: "", href: "" },
-        SeaMonster: { iconIndex: 46, name: "", href: "" },
+        SeaMonster: { iconIndex: 46, name: "Ocean Monument", href: "http://minecraft.gamepedia.com/Ocean_monument" },
         Ship: { iconIndex: 38, name: "", href: "" },
         IcePlainsSpikes: { iconIndex: 47, name: "Ice plains spikes", href: "http://minecraft.gamepedia.com/Ice_Plains_Spikes" },
         Spawn: { iconIndex: 40, name: "Spawn", href: "" },

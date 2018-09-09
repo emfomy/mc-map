@@ -16,3 +16,9 @@ range           = 3840
 Label           , -2190 , -4830 , "Isthmus Light"       ,       ,                               , 21
 Label           , -1436 , -4914 , "Isthmus Stronghold"  ,       ,                               , 8
 Label           , -2724 , -4440 , "Isthmus Bridge"      ,       , _self_?src=data/corona.txt    , 11
+
+SavannahVillage , -1420 , -6108
+SavannahVillage , -1852 , -5820
+SavannahVillage , -2716 , -6332
+Village         , -1452 , -5468
+Village         , -2252 , -5388

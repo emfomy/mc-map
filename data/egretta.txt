@@ -14,8 +14,43 @@ range           = 3840
 // Type         , x     , z     , Description           , Owner , href                          , IconIndex
 
 Label           ,  2544 , -3312 , "Egretta Castle"      ,       ,                               , 9
+Label           ,  3264 , -3472 , "Egretta Stronghold"  ,       ,                               , 8
+Label           ,  -822 , -3072 , "Origo Bridge"        ,       , _self_?src=data/corona.txt    , 11
+
 Label           ,   736 , -1502 , "Stronghold"          ,       ,                               , 8
-Label           ,  3264 , -3472 , "Stronghold"          ,       ,                               , 8
 Label           ,  3960 , -3320 , "Mansion"             ,       ,                               , 20
 Label           ,  4104 , -2072 , "Mansion"             ,       ,                               , 20
-Label           ,  -822 , -3072 , "Origo Bridge"        ,       , _self_?src=data/corona.txt    , 11
+
+FlowerForest    ,  2016 , -2784
+
+DesertTemple    ,    40 , -1000
+DesertTemple    ,    72 , -1304
+DesertTemple    ,   648 ,  -936
+DesertTemple    ,  -136 ,  -696
+DesertTemple    ,  3880 , -3800
+DesertVillage   ,    20 ,  -956
+DesertVillage   ,  -364 ,  -764
+DesertVillage   ,  3300 , -3388
+DesertVillage   ,  3684 , -3420
+DesertVillage   ,  3748 , -3852
+SavannahVillage ,   196 , -1516
+SavannahVillage ,   356 , -3068
+SavannahVillage ,   628 , -2444
+SavannahVillage ,   884 , -3036
+SavannahVillage ,  -444 , -2956
+SavannahVillage ,  1300 , -2828
+SavannahVillage ,  1652 , -1516
+SavannahVillage ,  2132 , -1756
+SavannahVillage ,  2708 , -3836
+SavannahVillage ,  3076 , -4396
+SavannahVillage ,  3732 , -4236
+Village         ,    68 , -2316
+Village         ,  -364 , -2284
+Village         ,  -460 , -2012
+Village         ,  1796 , -2924
+Village         ,  2420 , -3452
+Village         ,  2740 , -2412
+Village         ,  3252 , -2780
+Village         ,  3444 , -2444
+Village         ,  3604 , -2300
+Village         ,  4116 , -2396
