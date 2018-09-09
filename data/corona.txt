@@ -19,6 +19,6 @@ Label           , -2880 , -3240 , "Corona Town"         ,       ,               
 Label           , -3024 , -3936 , "Corona Forest"       ,       ,                               , 23
 Label           , -2328 , -2904 , "Corona Mountain"     ,       ,                               , 31
 Label           , -1680 , -2556 , "Corona Cape"         ,       ,                               , 30
-Label           , -3208 , -3240 , "Corona Port"         ,       , _self_?src=data/world.txt     , 38
+Label           , -3208 , -3240 , "Corona Port"         ,       , _self_?                       , 38
 Label           , -1722 , -3072 , "Origo Bridge"        ,       , _self_?src=data/egretta.txt   , 11
 Label           , -2724 , -4440 , "Isthmus Bridge"      ,       , _self_?src=data/isthmus.txt   , 11
