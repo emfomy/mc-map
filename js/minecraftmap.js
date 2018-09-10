@@ -11,6 +11,8 @@
  https://www.gnu.org/copyleft/gpl.html
 
  Note that other files in this project have their own licence, see \licence.md
+
+ Modify by Mu Yang
 *****/
 var MinecraftMap;
 (function (MinecraftMap) {
