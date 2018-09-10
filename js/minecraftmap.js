@@ -64,7 +64,7 @@ var MinecraftMap;
         Pumpkin: { iconIndex: 19, name: "Pumpkin", href: "http://minecraft.gamepedia.com/Pumpkin" },
 
         Monument1: { iconIndex: 20, name: "Monument", href: "" },
-        WoodlandMansion: { iconIndex: 20, name: "WoodlandMansion", href: "http://minecraft.gamepedia.com/Woodland_mansion" },
+        WoodlandMansion: { iconIndex: 20, name: "Woodland Mansion", href: "http://minecraft.gamepedia.com/Woodland_mansion" },
 
         Monument2: { iconIndex: 21, name: "Monument", href: "" },
 
@@ -98,7 +98,7 @@ var MinecraftMap;
         Wolf: { iconIndex: 35, name: "Wolf", href: "http://minecraft.gamepedia.com/Wolf" },
 
         Dragon: { iconIndex: 36, name: "Dragon", href: "" },
-        EnderDragon: { iconIndex: 36, name: "EnderDragon", href: "http://minecraft.gamepedia.com/Ender_Dragon" },
+        EnderDragon: { iconIndex: 36, name: "Ender Dragon", href: "http://minecraft.gamepedia.com/Ender_Dragon" },
 
         Ship1: { iconIndex: 37, name: "Ship", href: "" },
 
@@ -119,8 +119,8 @@ var MinecraftMap;
 
         Anvil: { iconIndex: 45, name: "Anvil", href: "http://minecraft.gamepedia.com/Anvil" },
 
-        SeaMonster: { iconIndex: 46, name: "SeaMonster", href: "" },
-        OceanMonument: { iconIndex: 46, name: "OceanMonument", href: "http://minecraft.gamepedia.com/Ocean_monument" },
+        SeaMonster: { iconIndex: 46, name: "Sea Monster", href: "" },
+        OceanMonument: { iconIndex: 46, name: "Ocean Monument", href: "http://minecraft.gamepedia.com/Ocean_monument" },
 
         IcePlainsSpikes: { iconIndex: 47, name: "Ice Plains Spikes", href: "http://minecraft.gamepedia.com/Ice_Plains_Spikes" },
 
