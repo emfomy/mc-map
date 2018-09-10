@@ -11,15 +11,12 @@ range           = 3840
 
 
 // Map locations:
-// Type         , x     , z     , Description           , Owner , href                          , IconIndex
+// Type         , x     , z     , Description           , Owner , href  , IconIndex
 
-Label           ,  2544 , -3312 , "Egretta Castle"      ,       ,                               , 9
-Label           ,  3264 , -3472 , "Egretta Stronghold"  ,       ,                               , 8
-Label           ,  -822 , -3072 , "Origo Bridge"        ,       , _self_?src=data/corona.txt    , 11
+Compass         ,  5424 , -6192 ,                       ,       , _self_?
 
-Label           ,   736 , -1502 , "Stronghold"          ,       ,                               , 8
-Label           ,  3960 , -3320 , "Mansion"             ,       ,                               , 20
-Label           ,  4104 , -2072 , "Mansion"             ,       ,                               , 20
+PlayerCastle    ,  2544 , -3312 , "Egretta Castle"      ,       , ""
+FenceOverlay    ,  -822 , -3072 , "Origo Bridge"        ,       , _self_?src=data/corona.txt
 
 FlowerForest    ,  2016 , -2784
 
@@ -44,6 +41,8 @@ SavannahVillage ,  2132 , -1756
 SavannahVillage ,  2708 , -3836
 SavannahVillage ,  3076 , -4396
 SavannahVillage ,  3732 , -4236
+Stronghold      ,   736 , -1502
+Stronghold      ,  3264 , -3472
 Village         ,    68 , -2316
 Village         ,  -364 , -2284
 Village         ,  -460 , -2012
@@ -54,3 +53,5 @@ Village         ,  3252 , -2780
 Village         ,  3444 , -2444
 Village         ,  3604 , -2300
 Village         ,  4116 , -2396
+WoodlandMansion ,  3960 , -3320
+WoodlandMansion ,  4104 , -2072

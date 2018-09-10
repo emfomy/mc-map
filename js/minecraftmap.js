@@ -16,34 +16,113 @@ var MinecraftMap;
 (function (MinecraftMap) {
     "use strict";
     var LocationType = {
-        Village: { iconIndex: 0, name: "Plains Village", href: "http://minecraft.gamepedia.com/Village#Plains" },
-        SavannahVillage: { iconIndex: 0, name: "Savannah village", href: "http://minecraft.gamepedia.com/Village#Savannah" },
-        TaigaVillage: { iconIndex: 0, name: "Taiga village", href: "http://minecraft.gamepedia.com/Village#Taiga" },
-        DesertVillage: { iconIndex: 1, name: "Desert village", href: "http://minecraft.gamepedia.com/Village#Desert" },
-        WitchHut: { iconIndex: 3, name: "Witch's hut", href: "http://minecraft.gamepedia.com/Generated_structures#Witch_Huts" },
-        JungleTemple: { iconIndex: 4, name: "Jungle temple", href: "http://minecraft.gamepedia.com/Jungle_temple" },
-        DesertTemple: { iconIndex: 5, name: "Desert temple", href: "http://minecraft.gamepedia.com/Desert_temple" },
+        Village: { iconIndex: 0, name: "Village", href: "http://minecraft.gamepedia.com/Village" },
+        PlainsVillage: { iconIndex: 0, name: "Plains Village", href: "http://minecraft.gamepedia.com/Village#Plains" },
+        SavannahVillage: { iconIndex: 0, name: "Savannah Village", href: "http://minecraft.gamepedia.com/Village#Savannah" },
+        TaigaVillage: { iconIndex: 0, name: "Taiga Village", href: "http://minecraft.gamepedia.com/Village#Taiga" },
+
+        DesertVillage: { iconIndex: 1, name: "Desert Village", href: "http://minecraft.gamepedia.com/Village#Desert" },
+
+        Skull: { iconIndex: 2, name: "Skull", href: "" },
+
+        WitchHut: { iconIndex: 3, name: "Witch's Hut", href: "http://minecraft.gamepedia.com/Generated_structures#Witch_Huts" },
+
+        JungleTemple: { iconIndex: 4, name: "Jungle Temple", href: "http://minecraft.gamepedia.com/Jungle_temple" },
+
+        DesertTemple: { iconIndex: 5, name: "Desert Temple", href: "http://minecraft.gamepedia.com/Desert_temple" },
+
         NetherFortress: { iconIndex: 6, name: "Nether Fortress", href: "http://minecraft.gamepedia.com/Nether_Fortress" },
-        NetherPortal: { iconIndex: 7, name: "Portal", href: "http://minecraft.gamepedia.com/Nether_Portal" },
-        Forest: { iconIndex: 28, name: "Forest", href: "http://minecraft.gamepedia.com/Biome#Forest" },
-        FlowerForest: { iconIndex: 26, name: "Flower forest", href: "http://minecraft.gamepedia.com/Flower_forest" },
-        MushroomIsland: { iconIndex: 29, name: "Mushroom island", href: "http://minecraft.gamepedia.com/Mushroom_Island" },
-        Horse: { iconIndex: 34, name: "", href: "http://minecraft.gamepedia.com/Horse" },
-        Wolf: { iconIndex: 35, name: "", href: "http://minecraft.gamepedia.com/Wolf" },
-        Dragon: { iconIndex: 36, name: "", href: "" },
-        SeaMonster: { iconIndex: 46, name: "Ocean Monument", href: "http://minecraft.gamepedia.com/Ocean_monument" },
-        Ship: { iconIndex: 38, name: "", href: "" },
-        IcePlainsSpikes: { iconIndex: 47, name: "Ice plains spikes", href: "http://minecraft.gamepedia.com/Ice_Plains_Spikes" },
-        Spawn: { iconIndex: 40, name: "Spawn", href: "" },
+
+        NetherPortal: { iconIndex: 7, name: "NetherPortal Portal", href: "http://minecraft.gamepedia.com/Nether_Portal" },
+
+        Stronghold: { iconIndex: 8, name: "Stronghold", href: "http://minecraft.gamepedia.com/Stronghold" },
         PlayerStructure: { iconIndex: 8, name: "", href: "" },
+
         PlayerCastle: { iconIndex: 9, name: "", href: "" },
+
         PlayerHouse: { iconIndex: 10, name: "", href: "" },
-        PlayerFarm: { iconIndex: 14, name: "Farm", href: "" },
+
+        PlayerRailway: { iconIndex: 11, name: "", href: "" },
+
         PlayerMachine: { iconIndex: 12, name: "", href: "" },
-        EnchantingRoom: { iconIndex: 44, name: "", href: "http://minecraft.gamepedia.com/Enchantment_Table" },
-        Label: { iconIndex: -1, name: "", href: "" },
+
         FenceOverlay: { iconIndex: 13, name: "", href: "" },
-        IslandOverlay: { iconIndex: 30, name: "", href: "" }
+
+        PlayerFarm: { iconIndex: 14, name: "Farm", href: "" },
+        Wheat: { iconIndex: 14, name: "Wheat", href: "http://minecraft.gamepedia.com/Wheat" },
+
+        Chicken: { iconIndex: 15, name: "Chicken", href: "http://minecraft.gamepedia.com/Chicken" },
+
+        Pig: { iconIndex: 16, name: "Pig", href: "http://minecraft.gamepedia.com/Pig" },
+
+        Cow: { iconIndex: 17, name: "Cow", href: "http://minecraft.gamepedia.com/Cow" },
+
+        Sheep: { iconIndex: 18, name: "Sheep", href: "http://minecraft.gamepedia.com/Sheep" },
+
+        Pumpkin: { iconIndex: 19, name: "Pumpkin", href: "http://minecraft.gamepedia.com/Pumpkin" },
+
+        Monument1: { iconIndex: 20, name: "Monument", href: "" },
+        WoodlandMansion: { iconIndex: 20, name: "WoodlandMansion", href: "http://minecraft.gamepedia.com/Woodland_mansion" },
+
+        Monument2: { iconIndex: 21, name: "Monument", href: "" },
+
+        Monument3: { iconIndex: 22, name: "Monument", href: "" },
+
+        OakForest: { iconIndex: 23, name: "Oak Forest", href: "http://minecraft.gamepedia.com/Forest" },
+
+        SaplingForest: { iconIndex: 24, name: "Sapling Forest", href: "http://minecraft.gamepedia.com/Forest" },
+
+        PalmForest: { iconIndex: 25, name: "Palm Forest", href: "http://minecraft.gamepedia.com/Forest" },
+
+        FlowerForest: { iconIndex: 26, name: "Flower Forest", href: "http://minecraft.gamepedia.com/Flower_forest" },
+
+        DarkForest: { iconIndex: 27, name: "Dark Forest", href: "http://minecraft.gamepedia.com/Dark_Forest" },
+
+        Forest: { iconIndex: 28, name: "Forest", href: "http://minecraft.gamepedia.com/Forest" },
+
+        SavannahForest: { iconIndex: 29, name: "Savannah Forest", href: "http://minecraft.gamepedia.com/Savannah" },
+        MushroomIsland: { iconIndex: 29, name: "Mushroom Island", href: "http://minecraft.gamepedia.com/Mushroom_Island" },
+
+        IslandOverlay: { iconIndex: 30, name: "", href: "" },
+
+        Mountains1: { iconIndex: 31, name: "Mountains", href: "" },
+
+        Mountains2: { iconIndex: 32, name: "Mountains", href: "" },
+
+        Cave: { iconIndex: 33, name: "Cave", href: "" },
+
+        Horse: { iconIndex: 34, name: "Horse", href: "http://minecraft.gamepedia.com/Horse" },
+
+        Wolf: { iconIndex: 35, name: "Wolf", href: "http://minecraft.gamepedia.com/Wolf" },
+
+        Dragon: { iconIndex: 36, name: "Dragon", href: "" },
+        EnderDragon: { iconIndex: 36, name: "EnderDragon", href: "http://minecraft.gamepedia.com/Ender_Dragon" },
+
+        Ship1: { iconIndex: 37, name: "Ship", href: "" },
+
+        Ship2: { iconIndex: 38, name: "Ship", href: "" },
+
+        Compass: { iconIndex: 39, name: "", href: "" },
+
+        Marker1: { iconIndex: 40, name: "", href: "" },
+        Spawn: { iconIndex: 40, name: "Spawn", href: "" },
+
+        Marker2: { iconIndex: 41, name: "", href: "" },
+
+        Marker3: { iconIndex: 42, name: "", href: "" },
+
+        Chest: { iconIndex: 43, name: "Chest", href: "http://minecraft.gamepedia.com/Chest" },
+
+        EnchantingRoom: { iconIndex: 44, name: "Enchanting Room", href: "http://minecraft.gamepedia.com/Enchantment_Table" },
+
+        Anvil: { iconIndex: 45, name: "Anvil", href: "http://minecraft.gamepedia.com/Anvil" },
+
+        SeaMonster: { iconIndex: 46, name: "SeaMonster", href: "" },
+        OceanMonument: { iconIndex: 46, name: "OceanMonument", href: "http://minecraft.gamepedia.com/Ocean_monument" },
+
+        IcePlainsSpikes: { iconIndex: 47, name: "Ice Plains Spikes", href: "http://minecraft.gamepedia.com/Ice_Plains_Spikes" },
+
+        Label: { iconIndex: -1, name: "", href: "" }
     };
     (function (LabellingStyle) {
         LabellingStyle[LabellingStyle["none"] = 0] = "none";
