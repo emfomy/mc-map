@@ -15,7 +15,7 @@ range           = 3840
 
 Compass         ,  7670 ,-14880 ,                       ,       , _self_?
 
-PlayerCastle    ,  4800 ,-12000 , "Cygnus Castle"       ,       , ""
+PlayerCastle    ,  4800 ,-12000 , "Cygnus Castle"       ,       , -
 Ship1           ,  6408 ,-13296 , "Cygnus Port"         ,       , _self_?                       , 38
 
 IcePlainsSpikes ,  6240 ,-14064

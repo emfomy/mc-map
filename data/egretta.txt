@@ -15,7 +15,7 @@ range           = 3840
 
 Compass         ,  5424 , -6192 ,                       ,       , _self_?
 
-PlayerCastle    ,  2544 , -3312 , "Egretta Castle"      ,       , ""
+PlayerCastle    ,  2544 , -3312 , "Egretta Castle"      ,       , -
 FenceOverlay    ,  -822 , -3072 , "Origo Bridge"        ,       , _self_?src=data/corona.txt
 
 FlowerForest    ,  2016 , -2784

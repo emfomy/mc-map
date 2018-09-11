@@ -4,6 +4,7 @@ showorigin      = false
 showcoordinates = true
 oceansrc        = data/world.png
 oceantheme      = bluecoastlinehard
+icons           = data/icon.png
 x               = 0
 z               = -3840
 range           = 15360

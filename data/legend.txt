@@ -48,7 +48,7 @@ EnderDragon,       2400,  -800, "36) Dragon\n36)EnderDragon"
 OceanMonument,     2400,     0, "46) SeaMonster\n46) OceanMonument"
 Ship1,             2400,   800, "37) Ship1"
 Ship2,             2400,  1600, "38) Ship2"
-Compass,           2400,  2400, "39) Compass", "", "", 39
+Compass,           2400,  2400, "39) Compass"
 Spawn,             2400,  3200, "40) Spawn\n40) Marker1"
 Marker2,           2400,  4000, "41) Marker2"
 Marker3,           2400,  4800, "42) Marker3"

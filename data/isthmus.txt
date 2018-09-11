@@ -15,8 +15,8 @@ range           = 3840
 
 Compass         ,   456 ,-10264 ,                       ,       , _self_?
 
-Monument2       , -2190 , -4830 , "Isthmus Light"       ,       , ""
-Stronghold      , -1436 , -4914 , "Isthmus Stronghold"  ,       , ""
+Monument2       , -2190 , -4830 , "Isthmus Light"       ,       , -
+Stronghold      , -1436 , -4914 , "Isthmus Stronghold"  ,       , -
 FenceOverlay    , -2724 , -4440 , "Isthmus Bridge"      ,       , _self_?src=data/corona.txt
 
 SavannahVillage , -1420 , -6108
