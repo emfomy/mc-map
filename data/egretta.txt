@@ -6,7 +6,7 @@ showlabelsbelow = 0
 oceansrc        = data/world.png
 oceantheme      = darkseas
 x               = 2544
-z               = -3312
+z               = -2688
 range           = 3840
 
 
@@ -15,7 +15,7 @@ range           = 3840
 
 Compass         ,  5424 , -6192 ,                       ,       , _self_?
 
-PlayerCastle    ,  2544 , -3312 , "Egretta Castle"      ,       , -
+PlayerCastle    ,  2544 , -2688 , "Egretta Castle"      ,       , -
 FenceOverlay    ,  -822 , -3072 , "Origo Bridge"        ,       , _self_?src=data/corona.txt
 
 FlowerForest    ,  2016 , -2784
