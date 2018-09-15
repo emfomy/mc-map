@@ -5,8 +5,8 @@ showcoordinates = true
 showlabelsbelow = 0
 oceansrc        = data/world.png
 oceantheme      = darkseas
-x               = 2544
-z               = -2688
+x               = 2016
+z               = -2784
 range           = 3840
 
 
