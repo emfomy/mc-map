@@ -3,15 +3,17 @@ ShowLabelsBelow = 0
 
 type,             x,     z,    description,          owner,  href,                  iconIndex
 
-Village,          -4800, -4800, "0) Village\n\n0) PlainsVillage\n0) SavannahVillage\n0) TaigaVillage"
-DesertVillage,    -4800, -3200, "1) DesertVillage"
-Skull,            -4800, -2400, "2) Skull"
-WitchHut,         -4800, -1600, "3) WitchHut"
-JungleTemple,     -4800,  -800, "4) JungleTemple"
-DesertTemple,     -4800,     0, "5) DesertTemple"
-NetherFortress,   -4800,   800, "6) NetherFortress"
-NetherPortal,     -4800,  1600, "7) NetherPortal"
-Stronghold,       -4800,  2400, "8) Stronghold"
+Village,          -4800, -4800, "0) PlainsVillage"
+DesertVillage,    -4800, -4000, "1) DesertVillage"
+TaigaVillage,     -4800, -3200, "64) TaigaVillage"
+SavannahVillage,  -4800, -2400, "65) SavannahVillage"
+Skull,            -4800, -1600, "2) Skull"
+WitchHut,         -4800,  -800, "3) WitchHut"
+JungleTemple,     -4800,     0, "4) JungleTemple"
+DesertTemple,     -4800,   800, "5) DesertTemple"
+NetherFortress,   -4800,  1600, "6) NetherFortress"
+NetherPortal,     -4800,  2400, "7) NetherPortal"
+Stronghold,       -4800,  3200, "8) Stronghold"
 
 PlayerStructure,  -2400, -4800, "8) PlayerStructure"
 PlayerCastle,     -2400, -4000, "9) PlayerCastle"

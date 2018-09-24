@@ -76,4 +76,4 @@ Title = "Legend"
 Blurb = "Shows all icons, with icon number."
 LabelsLevel = 0
 Range = 6400
-Icons = data/icon.png
+Icons = img/icon.png

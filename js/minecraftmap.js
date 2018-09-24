@@ -20,10 +20,12 @@ var MinecraftMap;
     var LocationType = {
         Village: { iconIndex: 0, name: "Village", href: "_blank_http://minecraft.gamepedia.com/Village" },
         PlainsVillage: { iconIndex: 0, name: "Plains Village", href: "_blank_http://minecraft.gamepedia.com/Village#Plains" },
-        SavannahVillage: { iconIndex: 0, name: "Savannah Village", href: "_blank_http://minecraft.gamepedia.com/Village#Savannah" },
-        TaigaVillage: { iconIndex: 0, name: "Taiga Village", href: "_blank_http://minecraft.gamepedia.com/Village#Taiga" },
 
         DesertVillage: { iconIndex: 1, name: "Desert Village", href: "_blank_http://minecraft.gamepedia.com/Village#Desert" },
+
+        TaigaVillage: { iconIndex: 64, name: "Taiga Village", href: "_blank_http://minecraft.gamepedia.com/Village#Taiga" },
+
+        SavannahVillage: { iconIndex: 65, name: "Savannah Village", href: "_blank_http://minecraft.gamepedia.com/Village#Savannah" },
 
         Skull: { iconIndex: 2, name: "Skull", href: "" },
 
@@ -192,7 +194,9 @@ var MinecraftMap;
         44: { width: 14, height: 16, yOffset: -1, pixelArt: true },
         45: { width: 11, height: 13, yOffset: 0, pixelArt: true },
         46: { width: 28, height: 18, yOffset: 1, pixelArt: false },
-        47: { width: 28, height: 30, yOffset: 1, pixelArt: false } // Ice spikes
+        47: { width: 28, height: 30, yOffset: 1, pixelArt: false },
+        64: { width: 14, height: 14, yOffset: -1, pixelArt: true },
+        65: { width: 14, height: 14, yOffset: -1, pixelArt: true }
     };
     // Object constructor functions
     // ----------------------------
@@ -1944,7 +1948,7 @@ var MinecraftMap;
     MinecraftMap.cCaptionSpacer_vertical = 8; // How far under the bottom of the icon should the text be drawn. The canvas textBaseline is "alphabetic", so cCaptionSpacer_vertical should be set to roughly the ascent of the font.
     MinecraftMap.cLabel_DontDrawChar = '~'; // Designates labels that shouldn't be drawn on the map. The tilde is illegal in a Minecraft name, so should make a good character to enclose labels with.
     MinecraftMap.cLabel_AlwaysDrawChar = '!'; // Designates labels that should always be drawn on the map. The exclamation mark is illegal in a Minecraft name, so should make a good character to enclose labels with.
-    MinecraftMap.cCustomIconIndexStart = 64; // IconIndexes with this value or higher should be loaded from gCustomIcons
+    MinecraftMap.cCustomIconIndexStart = 128; // IconIndexes with this value or higher should be loaded from gCustomIcons
     MinecraftMap.cShowBoundingBoxes = false; // This is for debug only
     // Global variables
     MinecraftMap.gMapDataUriDefault = ''; // Set this using SetDefaultSrc(), it specifies the URL to try and load locations from if no src parameter is specified in the main URL.
