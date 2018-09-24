@@ -5,18 +5,18 @@ showcoordinates = true
 showlabelsbelow = 0
 oceansrc        = data/world.png
 oceantheme      = darkseas
-x               = 2016
+x               = 2544
 z               = -2784
 range           = 3840
 
 
 // Map locations:
-// Type         , x     , z     , Description           , Owner , href  , IconIndex
+// Type         , x     , z     , Description           , Owner         , href  , IconIndex
 
-Compass         ,  5424 , -6192 ,                       ,       , _self_?
+Compass         ,  5424 , -6192 ,                       ,               , _self_?
 
-PlayerCastle    ,  2544 , -2688 , "Egretta Castle"      ,       , -
-FenceOverlay    ,  -822 , -3072 , "Origo Bridge"        ,       , _self_?src=data/corona.txt
+PlayerCastle    ,  2544 , -2688 , "Egretta Castle"      ,               , -
+FenceOverlay    ,  -822 , -3072 , "Origo Bridge"        , to Corona     , _self_?src=data/corona.txt
 
 FlowerForest    ,  2016 , -2784
 

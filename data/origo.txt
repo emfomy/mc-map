@@ -11,9 +11,9 @@ range           = 1920
 
 
 // Map locations:
-// Type         , x     , z     , Description           , Owner , href  , IconIndex
+// Type         , x     , z     , Description           , Owner         , href  , IconIndex
 
-Compass         ,   480 , -1440 ,                       ,       , _self_?
+Compass         ,   480 , -1440 ,                       ,               , _self_?
 Spawn           ,     0 ,     0
 
 OceanMonument   ,  -232 ,   760

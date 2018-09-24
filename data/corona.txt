@@ -11,19 +11,19 @@ range           = 1920
 
 
 // Map locations:
-// Type         , x     , z     , Description           , Owner , href  , IconIndex
+// Type         , x     , z     , Description           , Owner         , href  , IconIndex
 
-Compass         , -1584 , -4680 ,                       ,       , _self_?
+Compass         , -1584 , -4680 ,                       ,               , _self_?
 
-PlayerCastle    , -3024 , -2094 , "Corona Castle"       ,       , -
-Monument1       , -3024 , -2646 , "Corona Gate"         ,       , -
-PlayerHouse     , -2880 , -3240 , "Corona Town"         ,       , -
-Forest          , -3024 , -3936 , "Corona Forest"       ,       , -
-Mountains1      , -2328 , -2904 , "Corona Mountain"     ,       , -
-IslandOverlay   , -1680 , -2556 , "Corona Cape"         ,       , -
-Ship2           , -3208 , -3240 , "Corona Port"         ,       , _self_?
-FenceOverlay    , -1722 , -3072 , "Origo Bridge"        ,       , _self_?src=data/egretta.txt
-FenceOverlay    , -2724 , -4440 , "Isthmus Bridge"      ,       , _self_?src=data/isthmus.txt
+PlayerCastle    , -3024 , -2094 , "Corona Castle"       ,               , -
+Monument1       , -3024 , -2646 , "Corona Gate"         ,               , -
+PlayerHouse     , -2880 , -3240 , "Corona Town"         ,               , -
+Forest          , -3024 , -3936 , "Corona Forest"       ,               , -
+Mountains1      , -2328 , -2904 , "Corona Mountain"     ,               , -
+IslandOverlay   , -1680 , -2556 , "Corona Cape"         ,               , -
+Ship2           , -3208 , -3240 , "Corona Port"         ,               , _self_?
+FenceOverlay    , -1722 , -3072 , "Origo Bridge"        , to Egretta    , _self_?src=data/egretta.txt
+FenceOverlay    , -2724 , -4440 , "Isthmus Bridge"      , to Isthmus    , _self_?src=data/isthmus.txt
 
 DesertTemple    , -2200 , -2440
 DesertTemple    , -2552 , -2744

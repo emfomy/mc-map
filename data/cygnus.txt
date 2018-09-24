@@ -11,12 +11,12 @@ range           = 3840
 
 
 // Map locations:
-// Type         , x     , z     , Description           , Owner , href  , IconIndex
+// Type         , x     , z     , Description           , Owner         , href  , IconIndex
 
-Compass         ,  7670 ,-14880 ,                       ,       , _self_?
+Compass         ,  7670 ,-14880 ,                       ,               , _self_?
 
-PlayerCastle    ,  4800 ,-12000 , "Cygnus Castle"       ,       , -
-Ship1           ,  6408 ,-13296 , "Cygnus Port"         ,       , _self_?                       , 38
+PlayerCastle    ,  4800 ,-12000 , "Cygnus Castle"       ,               , -
+Ship1           ,  6408 ,-13296 , "Cygnus Port"         ,               , _self_?                       , 38
 
 IcePlainsSpikes ,  6240 ,-14064
 Stronghold      ,  2736 ,-13824
