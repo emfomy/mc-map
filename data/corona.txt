@@ -1,19 +1,21 @@
 title           = "Corona"
 blurb           = ""
+oceantheme      = darkseas
 showorigin      = false
 showcoordinates = true
 showlabelsbelow = 0
-oceansrc        = data/world.png
-oceantheme      = darkseas
-x               = -3024
-z               = -3240
+x               = -3120
+z               = -3120
 range           = 1920
 
 
 // Map locations:
 // Type         , x     , z     , Description           , Owner         , href  , IconIndex
 
-Compass         , -1584 , -4680 ,                       ,               , _self_?
+Compass         , -1680 , -4560 ,                       ,               , _self_?
+Label           , -1440 , -1440 ,                       , to Origo      , _self_?src=data/origo.txt
+Label           , -1440 , -3120 ,                       , to Egretta    , _self_?src=data/egretta.txt
+Label           , -3120 , -4800 ,                       , to Isthmus    , _self_?src=data/isthmus.txt
 
 PlayerCastle    , -3024 , -2094 , "Corona Castle"       ,               , -
 Monument1       , -3024 , -2646 , "Corona Gate"         ,               , -

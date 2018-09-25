@@ -1,10 +1,9 @@
 title           = "Cygnus"
 blurb           = ""
+oceantheme      = darkseas
 showorigin      = false
 showcoordinates = true
 showlabelsbelow = 0
-oceansrc        = data/world.png
-oceantheme      = darkseas
 x               = 4800
 z               = -12000
 range           = 3840
@@ -14,6 +13,8 @@ range           = 3840
 // Type         , x     , z     , Description           , Owner         , href  , IconIndex
 
 Compass         ,  7670 ,-14880 ,                       ,               , _self_?
+Label           ,  6480 , -8640 ,                       , to Egretta    , _self_?src=data/egretta.txt
+Label           ,  1440 , -8640 ,                       , to Isthmus    , _self_?src=data/isthmus.txt
 
 PlayerCastle    ,  4800 ,-12000 , "Cygnus Castle"       ,               , -
 Ship1           ,  6408 ,-13296 , "Cygnus Port"         ,               , _self_?                       , 38

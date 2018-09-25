@@ -1,10 +1,9 @@
 title           = "Origo"
 blurb           = ""
+oceantheme      = darkseas
 showorigin      = false
 showcoordinates = true
 showlabelsbelow = 0
-oceansrc        = data/world.png
-oceantheme      = darkseas
 x               = -960
 z               = 0
 range           = 1920
@@ -14,6 +13,9 @@ range           = 1920
 // Type         , x     , z     , Description           , Owner         , href  , IconIndex
 
 Compass         ,   480 , -1440 ,                       ,               , _self_?
+Label           ,   720 , -1680 ,                       , to Egretta    , _self_?src=data/egretta.txt
+Label           , -2640 , -1680 ,                       , to Corona     , _self_?src=data/corona.txt
+
 Spawn           ,     0 ,     0
 
 OceanMonument   ,  -232 ,   760

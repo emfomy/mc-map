@@ -2184,4 +2184,3 @@ var MinecraftMap;
     }
     MinecraftMap.getSettingsAndMapLocations = getSettingsAndMapLocations;
 })(MinecraftMap || (MinecraftMap = {}));
-//# sourceMappingURL=minecraftmap.js.map

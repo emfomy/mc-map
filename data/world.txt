@@ -1,9 +1,9 @@
 title           = "emfo's world"
 blurb           = ""
+oceantheme      = darkseas
 showorigin      = false
 showcoordinates = true
-oceansrc        = data/world.png
-oceantheme      = darkseas
+showlabelsbelow = 0
 x               = 0
 z               = -3840
 range           = 15360

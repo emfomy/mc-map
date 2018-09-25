@@ -110,8 +110,8 @@ function RenderPoster() {
 	var showAllLabels = $('#inputalllabels').is(':checked');
 	gConfig.ShowLabelsBelow = showAllLabels ? 3 : 5;
 
-	gLocationIconScale = gPosterIconScale;
-	gLocationFontScale = gPosterFontScale;
+	MinecraftMap.gLocationIconScale = gPosterIconScale;
+	MinecraftMap.gLocationFontScale = gPosterFontScale;
 
 
 	PreRender_PreserveMapBackground(
@@ -233,6 +233,7 @@ function PreRender_PreserveMapBackground(config, callback) {
 	<img id="map-background" src="img/map64.png"/>
 	<img id="map-background-original" src="img/map64.png"/>
 	<img id="map-tileset" src="img/glyphs.png"/>
+	<img id="oceanmask" src="img/ocean.png"/>
 </div>
 
 <script type="text/javascript">

@@ -1,19 +1,22 @@
 title           = "Egretta"
 blurb           = ""
+oceantheme      = darkseas
 showorigin      = false
 showcoordinates = true
 showlabelsbelow = 0
-oceansrc        = data/world.png
-oceantheme      = darkseas
-x               = 2544
-z               = -2784
+x               = 1680
+z               = -2880
 range           = 3840
 
 
 // Map locations:
 // Type         , x     , z     , Description           , Owner         , href  , IconIndex
 
-Compass         ,  5424 , -6192 ,                       ,               , _self_?
+Compass         ,  4560 , -5760 ,                       ,               , _self_?
+Label           ,  5040 , -6240 ,                       , to Cygnus     , _self_?src=data/cygnus.txt
+Label           , -1680 ,   480 ,                       , to Origo      , _self_?src=data/origo.txt
+Label           , -1680 , -2880 ,                       , to Corona     , _self_?src=data/corona.txt
+Label           , -1680 , -6240 ,                       , to Isthmus    , _self_?src=data/isthmus.txt
 
 PlayerCastle    ,  2544 , -2688 , "Egretta Castle"      ,               , -
 FenceOverlay    ,  -822 , -3072 , "Origo Bridge"        , to Corona     , _self_?src=data/corona.txt

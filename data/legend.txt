@@ -73,4 +73,5 @@ Pig,               4800,  4800
 Title = "Legend"
 Blurb = "Shows all icons, with icon number."
 LabelsLevel = 0
+OceanSrc = ""
 Range = 6400

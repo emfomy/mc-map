@@ -1,19 +1,21 @@
 title           = "Isthmus"
 blurb           = ""
+oceantheme      = darkseas
 showorigin      = false
 showcoordinates = true
 showlabelsbelow = 0
-oceansrc        = data/world.png
-oceantheme      = darkseas
-x               = -2424
-z               = -7384
+x               = -2400
+z               = -7200
 range           = 3840
 
 
 // Map locations:
 // Type         , x     , z     , Description           , Owner         , href  , IconIndex
 
-Compass         ,   456 ,-10264 ,                       ,               , _self_?
+Compass         ,   480 ,-10080 ,                       ,               , _self_?
+Label           , -2400 , -3840 ,                       , to Corona     , _self_?src=data/corona.txt
+Label           ,   960 , -3840 ,                       , to Egretta    , _self_?src=data/egretta.txt
+Label           ,   960 ,-10560 ,                       , to Cygnus     , _self_?src=data/cygnus.txt
 
 Monument2       , -2190 , -4830 , "Isthmus Light"       ,               , -
 Stronghold      , -1436 , -4914 , "Isthmus Stronghold"  ,               , -
