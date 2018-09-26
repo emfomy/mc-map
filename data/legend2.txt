@@ -76,5 +76,5 @@ Title = "Legend"
 Blurb = "Shows all icons, with icon number."
 LabelsLevel = 0
 Range = 6400
-OceanSrc = ""
+OceanSrc = "img/map64.png"
 Icons = img/icon.png
