@@ -1588,7 +1588,7 @@ var MinecraftMap;
         if (blurScale > 3)
             blurScale = 3; // Put a cap on it to stop stupid extremes
         blurRadius *= blurScale;
-        stackBlurCanvasRGB(blurCanvas, 0, 0, blurCanvas.width, blurCanvas.height, blurRadius);
+        StackBlur.canvasRGB(blurCanvas, 0, 0, blurCanvas.width, blurCanvas.height, blurRadius);
         var blurPixels = blurCanvas.getContext("2d").getImageData(0, 0, blurCanvas.width, blurCanvas.height).data;
         var workingImageData = workingImage_Context.getImageData(0, 0, working_width, working_height);
         var workingPixels = workingImageData.data;
@@ -1712,7 +1712,7 @@ var MinecraftMap;
         if (blurScale > 3)
             blurScale = 3; // Put a cap on it to stop stupid extremes
         blurRadius *= blurScale;
-        stackBlurCanvasRGB(blurCanvas, 0, 0, blurCanvas.width, blurCanvas.height, blurRadius);
+        StackBlur.canvasRGB(blurCanvas, 0, 0, blurCanvas.width, blurCanvas.height, blurRadius);
         var blurPixels = blurCanvas.getContext("2d").getImageData(0, 0, blurCanvas.width, blurCanvas.height).data;
         var workingImageData = workingImage_Context.getImageData(0, 0, working_width, working_height);
         var workingPixels = workingImageData.data;
@@ -1787,7 +1787,7 @@ var MinecraftMap;
         // our blurCanvas and not worry about losing its unblurred value.
         var blurCanvas = transformedOceanMask_Canvas;
         var blurRadius = Math.round(cWorkingCanvasOversample * map_Image.width / 20); // about 3 blocks on the final map, regardless of MapRange
-        stackBlurCanvasRGB(blurCanvas, 0, 0, blurCanvas.width, blurCanvas.height, blurRadius);
+        StackBlur.canvasRGB(blurCanvas, 0, 0, blurCanvas.width, blurCanvas.height, blurRadius);
         var blurPixels = blurCanvas.getContext("2d").getImageData(0, 0, blurCanvas.width, blurCanvas.height).data;
         var workingImageData = workingImage_Context.getImageData(0, 0, working_width, working_height);
         var workingPixels = workingImageData.data;
