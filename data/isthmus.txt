@@ -13,7 +13,7 @@ range           = 3840
 // Type         , x     , z     , Description           , Owner         , href  , IconIndex
 
 Compass         ,   480 ,-10080 ,                       ,               , _self_?
-Label           , -2400 , -3840 ,                       , to Corona     , _self_?src=data/corona.txt
+// Label           , -2400 , -3840 ,                       , to Corona     , _self_?src=data/corona.txt
 Label           ,   960 , -3840 ,                       , to Egretta    , _self_?src=data/egretta.txt
 Label           ,   960 ,-10560 ,                       , to Cygnus     , _self_?src=data/cygnus.txt
 

@@ -15,7 +15,7 @@ range           = 3840
 Compass         ,  4560 , -5760 ,                       ,               , _self_?
 Label           ,  5040 , -6240 ,                       , to Cygnus     , _self_?src=data/cygnus.txt
 Label           , -1680 ,   480 ,                       , to Origo      , _self_?src=data/origo.txt
-Label           , -1680 , -2880 ,                       , to Corona     , _self_?src=data/corona.txt
+// Label           , -1680 , -2880 ,                       , to Corona     , _self_?src=data/corona.txt
 Label           , -1680 , -6240 ,                       , to Isthmus    , _self_?src=data/isthmus.txt
 
 PlayerCastle    ,  2544 , -2688 , "Egretta Castle"      ,               , -
