@@ -16,7 +16,9 @@ Compass         ,   480 , -1440 ,                       ,               , _self_
 Label           ,   720 , -1680 ,                       , to Egretta    , _self_?src=data/egretta.txt
 Label           , -2640 , -1680 ,                       , to Corona     , _self_?src=data/corona.txt
 
-Spawn           ,     0 ,     0
+PlayerCastle    ,     0 ,     0 , "Origo Center"        ,               , -
+Stronghold      , -1776 ,    64 , "Origo Stronghold"    ,               , -
+// Spawn           ,     0 ,     0
 
 OceanMonument   ,  -232 ,   760
 OceanMonument   ,  -696 ,   120
@@ -25,4 +27,3 @@ OceanMonument   ,  -840 , -1302
 OceanMonument   , -1352 ,   392
 OceanMonument   , -1736 ,  1176
 OceanMonument   , -2328 , -1336
-Stronghold      , -1776 ,    64
