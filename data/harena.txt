@@ -1,0 +1,35 @@
+title           = "Harena"
+blurb           = ""
+oceantheme      = darkseas
+showorigin      = false
+showcoordinates = true
+showlabelsbelow = 0
+x               = -8448
+z               = -1200
+range           = 1920
+
+
+// Map locations:
+// Type         , x     , z     , Description           , Owner         , href  , IconIndex
+
+Compass         , -7008 , -2640 ,                       ,               , _self_?
+Label           , -6768 , -1200 ,                       , to Origo      , _self_?src=data/origo.txt
+Label           , -6768 , -2880 ,                       , to Corona     , _self_?src=data/corona.txt
+
+Monument1       , -8448 ,  -240 , "Harena Pyrimid"      ,               , -
+Stronghold      , -7632 , -2560 , "Harena Stronghold"   ,               , -
+
+DesertTemple    , -7816 ,  -392
+DesertTemple    , -7880 ,   328
+DesertTemple    , -7992 ,  -792
+DesertTemple    , -8472 ,   264
+DesertTemple    , -8888 ,   696
+DesertTemple    , -8934 ,  -376
+DesertTemple    , -8936 ,    40
+DesertVillage   , -7660 ,  -188
+DesertVillage   , -7852 ,  -316
+DesertVillage   , -7932 ,  -764
+DesertVillage   , -8412 ,   132
+DesertVillage   , -8844 ,   836
+DesertVillage   , -8876 ,  -364
+DesertVillage   , -8924 ,   244

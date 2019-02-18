@@ -14,18 +14,19 @@ range           = 1920
 
 Compass         , -1680 , -4560 ,                       ,               , _self_?
 Label           , -1440 , -1440 ,                       , to Origo      , _self_?src=data/origo.txt
+Label           , -4800 , -1440 ,                       , to Harena     , _self_?src=data/harena.txt
 // Label           , -1440 , -3120 ,                       , to Egretta    , _self_?src=data/egretta.txt
 // Label           , -3120 , -4800 ,                       , to Isthmus    , _self_?src=data/isthmus.txt
 
-PlayerCastle    , -3024 , -2094 , "Corona Castle"       ,               , -
-Monument1       , -3024 , -2646 , "Corona Gate"         ,               , -
-PlayerHouse     , -2880 , -3240 , "Corona Town"         ,               , -
-Forest          , -3024 , -3936 , "Corona Forest"       ,               , -
-Mountains1      , -2328 , -2904 , "Corona Mountain"     ,               , -
 IslandOverlay   , -1680 , -2556 , "Corona Cape"         ,               , -
+PlayerCastle    , -3024 , -2094 , "Corona Castle"       ,               , -
+PlayerHouse     , -2880 , -3240 , "Corona City"         ,               , -
+Forest          , -3024 , -3936 , "Corona Forest"       ,               , -
+Monument1       , -3024 , -2646 , "Corona Gate"         ,               , -
+Mountains1      , -2328 , -2904 , "Corona Mountain"     ,               , -
 Ship2           , -3208 , -3240 , "Corona Port"         ,               , _self_?
-FenceOverlay    , -1722 , -3072 , "Origo Bridge"        , to Egretta    , _self_?src=data/egretta.txt
-FenceOverlay    , -2724 , -4440 , "Isthmus Bridge"      , to Isthmus    , _self_?src=data/isthmus.txt
+FenceOverlay    , -2724 , -4440 , "Isthmus Bridge S."   , to Isthmus    , _self_?src=data/isthmus.txt
+FenceOverlay    , -1722 , -3072 , "Origo Bridge W."     , to Egretta    , _self_?src=data/egretta.txt
 
 DesertTemple    , -2200 , -2440
 DesertTemple    , -2552 , -2744

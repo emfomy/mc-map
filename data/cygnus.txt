@@ -17,9 +17,9 @@ Label           ,  6480 , -8640 ,                       , to Egretta    , _self_
 Label           ,  1440 , -8640 ,                       , to Isthmus    , _self_?src=data/isthmus.txt
 
 PlayerCastle    ,  4800 ,-12000 , "Cygnus Castle"       ,               , -
-Ship1           ,  6408 ,-13296 , "Cygnus Port"         ,               , _self_?                       , 38
+Ship1           ,  6408 ,-13296 , "Cygnus Port"         ,               , _self_?
+IcePlainsSpikes ,  6240 ,-14064 , "Cygnus Spike"        ,               ,
 
-IcePlainsSpikes ,  6240 ,-14064
 Stronghold      ,  2736 ,-13824
 Stronghold      ,  4256 ,-10784
 Stronghold      ,  6480 ,-11984

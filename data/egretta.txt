@@ -19,7 +19,9 @@ Label           , -1680 ,   480 ,                       , to Origo      , _self_
 Label           , -1680 , -6240 ,                       , to Isthmus    , _self_?src=data/isthmus.txt
 
 PlayerCastle    ,  2544 , -2688 , "Egretta Castle"      ,               , -
-FenceOverlay    ,  -822 , -3072 , "Origo Bridge"        , to Corona     , _self_?src=data/corona.txt
+Stronghold      ,  3264 , -3472 , "Egretta Stronghold"  ,               , -
+FenceOverlay    ,  -822 , -3072 , "Origo Bridge E."     , to Corona     , _self_?src=data/corona.txt
+PlayerCastle    ,     0 ,     0 , "Origo City"          ,               , -
 
 FlowerForest    ,  2016 , -2784
 
@@ -45,7 +47,6 @@ SavannahVillage ,  2708 , -3836
 SavannahVillage ,  3076 , -4396
 SavannahVillage ,  3732 , -4236
 Stronghold      ,   736 , -1502
-Stronghold      ,  3264 , -3472
 Village         ,    68 , -2316
 Village         ,  -364 , -2284
 Village         ,  -460 , -2012

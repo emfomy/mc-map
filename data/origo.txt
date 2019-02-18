@@ -14,16 +14,20 @@ range           = 1920
 
 Compass         ,   480 , -1440 ,                       ,               , _self_?
 Label           ,   720 , -1680 ,                       , to Egretta    , _self_?src=data/egretta.txt
+Label           , -2640 ,     0 ,                       , to Harena     , _self_?src=data/harena.txt
 Label           , -2640 , -1680 ,                       , to Corona     , _self_?src=data/corona.txt
 
-PlayerCastle    ,     0 ,     0 , "Origo Center"        ,               , -
-Stronghold      , -1776 ,    64 , "Origo Stronghold"    ,               , -
+PlayerCastle    ,     0 ,     0 , "Origo City"          ,               , -
+IslandOverlay   , -1776 ,    64 , "Origo Stronghold"    ,               , -
+Stronghold      , -1776 ,    64 ,                       ,               , -
 // Spawn           ,     0 ,     0
 
+OceanMonument   ,   216 ,  1816
 OceanMonument   ,  -232 ,   760
 OceanMonument   ,  -696 ,   120
 OceanMonument   ,  -824 ,  1144
 OceanMonument   ,  -840 , -1302
 OceanMonument   , -1352 ,   392
+OceanMonument   , -1416 , -1816
 OceanMonument   , -1736 ,  1176
 OceanMonument   , -2328 , -1336

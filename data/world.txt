@@ -14,8 +14,9 @@ range           = 15360
 
 Compass         , 11520 ,-15360 ,                       ,               , _self_?
 
-SeaMonster      ,  -696 ,   120 , "Origo Sea"           ,               , _self_?src=data/origo.txt
 DesertTemple    , -3024 , -2400 , "Corona"              ,               , _self_?src=data/corona.txt
+DesertTemple    , -8448 ,  -240 , "Harena"              ,               , _self_?src=data/harena.txt
+IcePlainsSpikes ,  4800 ,-12000 , "Cygnus"              ,               , _self_?src=data/cygnus.txt
 Monument2       , -2424 , -7384 , "Isthmus"             ,               , _self_?src=data/isthmus.txt
 PlayerCastle    ,  2544 , -3312 , "Egretta"             ,               , _self_?src=data/egretta.txt
-IcePlainsSpikes ,  4800 ,-12000 , "Cygnus"              ,               , _self_?src=data/cygnus.txt
+SeaMonster      ,  -696 ,   120 , "Origo"               ,               , _self_?src=data/origo.txt
