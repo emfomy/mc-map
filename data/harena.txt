@@ -13,8 +13,7 @@ range           = 1920
 // Type         , x     , z     , Description           , Owner         , href  , IconIndex
 
 Compass         , -7008 , -2640 ,                       ,               , _self_?
-Label           , -6768 , -1200 ,                       , to Origo      , _self_?src=data/origo.txt
-Label           , -6768 , -2880 ,                       , to Corona     , _self_?src=data/corona.txt
+Label           , -6768 , -1200 ,                       , to Monile     , _self_?src=data/monile.txt
 
 Monument1       , -8448 ,  -240 , "Harena Pyrimid"      ,               , -
 Stronghold      , -7632 , -2560 , "Harena Stronghold"   ,               , -
