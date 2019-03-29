@@ -17,10 +17,11 @@ Label           ,   960 , -3840 ,                       , to Egretta    , _self_
 Label           ,   960 ,-10560 ,                       , to Cygnus     , _self_?src=data/cygnus.txt
 // Label           , -2400 , -3840 ,                       , to Corona     , _self_?src=data/corona.txt
 
-FenceOverlay    , -2724 , -4440 , "Isthmus Bridge S."   , to Corona     , _self_?src=data/corona.txt
-IslandOverlay   , -2190 , -4830 , "Isthmus Light"       ,               , -
+FenceOverlay    , -2724 , -4440 , "Fretum Bridge S."    , to Corona     , _self_?src=data/corona.txt
+IslandOverlay   , -2190 , -4830 , "Fretum Light"        ,               , -
 Monument2       , -2190 , -4830 ,                       ,               , -
-Stronghold      , -1436 , -4914 , "Isthmus Stronghold"  ,               , -
+Ship1           , -4608 , -8160 , "Isthmus Canal"       ,               , -
+Stronghold      , -1436 , -4914 , "Fretum Stronghold"   ,               , -
 
 SavannahVillage , -1420 , -6108
 SavannahVillage , -1852 , -5820

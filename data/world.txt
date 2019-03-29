@@ -17,7 +17,7 @@ Compass         , 11520 ,-15360 ,                       ,               , _self_
 DesertTemple    , -3024 , -2400 , "Corona"              ,               , _self_?src=data/corona.txt
 DesertTemple    , -8448 ,  -240 , "Harena"              ,               , _self_?src=data/harena.txt
 IcePlainsSpikes ,  4800 ,-12000 , "Cygnus"              ,               , _self_?src=data/cygnus.txt
-Monument2       , -2424 , -7384 , "Isthmus"             ,               , _self_?src=data/isthmus.txt
 PalmForest      , -4032 ,  -960 , "Monile"              ,               , _self_?src=data/monile.txt
 PlayerCastle    ,  2544 , -3312 , "Egretta"             ,               , _self_?src=data/egretta.txt
 SeaMonster      ,  -696 ,   120 , "Origo"               ,               , _self_?src=data/origo.txt
+Ship1           , -2424 , -7384 , "Isthmus"             ,               , _self_?src=data/isthmus.txt

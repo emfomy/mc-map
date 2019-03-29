@@ -18,7 +18,7 @@ Label           , -1680 ,   480 ,                       , to Origo      , _self_
 Label           , -1680 , -6240 ,                       , to Isthmus    , _self_?src=data/isthmus.txt
 // Label           , -1680 , -2880 ,                       , to Corona     , _self_?src=data/corona.txt
 
-FenceOverlay    ,  -822 , -3072 , "Origo Bridge E."     , to Corona     , _self_?src=data/corona.txt
+FenceOverlay    ,  -828 , -3072 , "Origo Bridge E."     , to Corona     , _self_?src=data/corona.txt
 PlayerCastle    ,     0 ,     0 , "Origo City"          ,               , -
 PlayerCastle    ,  2544 , -2688 , "Egretta Castle"      ,               , -
 Stronghold      ,  3264 , -3472 , "Egretta Stronghold"  ,               , -
