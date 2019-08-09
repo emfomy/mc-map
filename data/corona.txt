@@ -32,11 +32,9 @@ Ship2           , -3208 , -3240 , "Corona Port"         ,               , _self_
 DesertTemple    , -2200 , -2440
 DesertTemple    , -2552 , -2744
 DesertTemple    , -2904 , -1944
-DesertTemple    , -3000 , -2952
 DesertTemple    , -3464 , -2376
 DesertVillage   , -2716 , -1820
 DesertVillage   , -2716 , -2220
-DesertVillage   , -2956 , -3420
 DesertVillage   , -3372 , -2380
 SavannahVillage , -2316 , -3420
 SavannahVillage , -3356 , -1836
